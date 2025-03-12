@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+  --default-transition-duration: 300ms;
+}
+
+input {
+  outline: none;
+  border: none;
+}

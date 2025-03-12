@@ -15,7 +15,7 @@ const MobNav = ({ onHandleNav, showNav }: MobNavProps) => {
     <>
       {/* Overlay */}
       <div
-        className={`${navOpen} w-full h-screen fixed inset-0 bg-black opacity-50 transform transition-all duration-200 z-[1001]`}
+        className={`${navOpen} w-full h-screen fixed inset-0 bg-black opacity-50 transform transition z-[1001]`}
       ></div>
       <aside
         className={`${navOpen} w-[80%] sm:w-[60%] h-full text-white bg-rose-900 flex 
@@ -38,7 +38,6 @@ const MobNav = ({ onHandleNav, showNav }: MobNavProps) => {
           onClick={onHandleNav}
         />
       </aside>
-      {console.log(showNav)}
     </>
   );
 };
