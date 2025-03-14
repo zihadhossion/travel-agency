@@ -194,3 +194,21 @@ export const reviewData = [
     image: "/images/u2.jpg",
   },
 ];
+
+export const whyChooseData = [
+  {
+    id: 1,
+    title: "Best Price Guarantee",
+    image: "/images/c1.svg",
+  },
+  {
+    id: 2,
+    title: "Easy & Quick Booking",
+    image: "/images/c2.svg",
+  },
+  {
+    id: 3,
+    title: "Customer Care 24/7",
+    image: "/images/c3.svg",
+  },
+];
